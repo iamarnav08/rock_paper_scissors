@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>tic-tac-toe</title>
+        <script src = "index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Select your move.</h1>
+            <select name="Your move" id="player_move">
+                <option value="null">Select</option>
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">Scissors</option>
+              </select>
+            <button type="button" onclick="playGame()">Play</button>
+            <div id="result-container" class="result-box">
+                <p>Your move: <span id="player-choice"></span></p>
+                <p>Computer's move: <span id="computer-choice"></span></p>
+                <p>Result: <span id="game-result"></span></p>
+            </div>
+        </div>
+    </body>
+</html>
